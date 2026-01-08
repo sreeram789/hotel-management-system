@@ -1,0 +1,258 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.hotel:hotel-management-system >------------------
+[INFO] Building hotel-management-system 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ hotel-management-system ---
+[INFO] Deleting C:\Users\asus\Desktop\fullstack full\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hotel-management-system ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ hotel-management-system ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 21 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[34,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[38,29] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[39,30] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[40,56] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[41,47] cannot find symbol
+  symbol:   method getRole()
+  location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[42,13] cannot find symbol
+  symbol:   method setEnabled(boolean)
+  location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[45,77] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[52,64] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.hotel.system.dto.DTOs.LoginRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[52,84] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.hotel.system.dto.DTOs.LoginRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[54,80] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.hotel.system.dto.DTOs.LoginRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[55,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.hotel.system.dto.DTOs.LoginRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/dto/DTOs.java:[24,29] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/dto/DTOs.java:[25,29] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/dto/DTOs.java:[26,27] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[28,35] cannot find symbol
+  symbol:   method getName()
+  location: variable hotelDetails of type com.hotel.system.entity.Hotel
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[29,39] cannot find symbol
+  symbol:   method getLocation()
+  location: variable hotelDetails of type com.hotel.system.entity.Hotel
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[30,42] cannot find symbol
+  symbol:   method getDescription()
+  location: variable hotelDetails of type com.hotel.system.entity.Hotel
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[49,13] cannot find symbol
+  symbol:   method setHotel(com.hotel.system.entity.Hotel)
+  location: variable room of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[55,39] cannot find symbol
+  symbol:   method getRoomNumber()
+  location: variable roomDetails of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[56,33] cannot find symbol
+  symbol:   method getType()
+  location: variable roomDetails of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[57,42] cannot find symbol
+  symbol:   method getPricePerNight()
+  location: variable roomDetails of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[58,38] cannot find symbol
+  symbol:   method isAvailable()
+  location: variable roomDetails of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[34,52] cannot find symbol
+  symbol:   method getRoomId()
+  location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[36,18] cannot find symbol
+  symbol:   method isAvailable()
+  location: variable room of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[41,16] cannot find symbol
+  symbol:   method setUser(com.hotel.system.entity.User)
+  location: variable booking of type com.hotel.system.entity.Booking
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[42,16] cannot find symbol
+  symbol:   method setRoom(com.hotel.system.entity.Room)
+  location: variable booking of type com.hotel.system.entity.Booking
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[43,39] cannot find symbol
+  symbol:   method getCheckInDate()
+  location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[44,40] cannot find symbol
+  symbol:   method getCheckOutDate()
+  location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[45,16] cannot find symbol
+  symbol:   method setStatus(com.hotel.system.entity.Booking.BookingStatus)
+  location: variable booking of type com.hotel.system.entity.Booking
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[47,52] cannot find symbol
+  symbol:   method getCheckInDate()
+  location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[47,78] cannot find symbol
+  symbol:   method getCheckOutDate()
+  location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[49,35] cannot find symbol
+  symbol:   method getPricePerNight()
+  location: variable room of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[57,52] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[67,16] cannot find symbol
+  symbol:   method setStatus(com.hotel.system.entity.Booking.BookingStatus)
+  location: variable booking of type com.hotel.system.entity.Booking
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/CustomUserDetailsService.java:[23,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/CustomUserDetailsService.java:[24,31] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/CustomUserDetailsService.java:[25,28] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.hotel.system.entity.User
+[INFO] 37 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.301 s
+[INFO] Finished at: 2025-12-16T15:53:31+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project hotel-management-system: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[34,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[38,29] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[39,30] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[40,56] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[41,47] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.RegisterRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[42,13] cannot find symbol
+[ERROR]   symbol:   method setEnabled(boolean)
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[45,77] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[52,64] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.LoginRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[52,84] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.LoginRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[54,80] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.LoginRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/AuthServiceImpl.java:[55,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.LoginRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/dto/DTOs.java:[24,29] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/dto/DTOs.java:[25,29] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/dto/DTOs.java:[26,27] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[28,35] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable hotelDetails of type com.hotel.system.entity.Hotel
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[29,39] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable hotelDetails of type com.hotel.system.entity.Hotel
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[30,42] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable hotelDetails of type com.hotel.system.entity.Hotel
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[49,13] cannot find symbol
+[ERROR]   symbol:   method setHotel(com.hotel.system.entity.Hotel)
+[ERROR]   location: variable room of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[55,39] cannot find symbol
+[ERROR]   symbol:   method getRoomNumber()
+[ERROR]   location: variable roomDetails of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[56,33] cannot find symbol
+[ERROR]   symbol:   method getType()
+[ERROR]   location: variable roomDetails of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[57,42] cannot find symbol
+[ERROR]   symbol:   method getPricePerNight()
+[ERROR]   location: variable roomDetails of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/HotelServiceImpl.java:[58,38] cannot find symbol
+[ERROR]   symbol:   method isAvailable()
+[ERROR]   location: variable roomDetails of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[34,52] cannot find symbol
+[ERROR]   symbol:   method getRoomId()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[36,18] cannot find symbol
+[ERROR]   symbol:   method isAvailable()
+[ERROR]   location: variable room of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[41,16] cannot find symbol
+[ERROR]   symbol:   method setUser(com.hotel.system.entity.User)
+[ERROR]   location: variable booking of type com.hotel.system.entity.Booking
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[42,16] cannot find symbol
+[ERROR]   symbol:   method setRoom(com.hotel.system.entity.Room)
+[ERROR]   location: variable booking of type com.hotel.system.entity.Booking
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[43,39] cannot find symbol
+[ERROR]   symbol:   method getCheckInDate()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[44,40] cannot find symbol
+[ERROR]   symbol:   method getCheckOutDate()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[45,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.hotel.system.entity.Booking.BookingStatus)
+[ERROR]   location: variable booking of type com.hotel.system.entity.Booking
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[47,52] cannot find symbol
+[ERROR]   symbol:   method getCheckInDate()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[47,78] cannot find symbol
+[ERROR]   symbol:   method getCheckOutDate()
+[ERROR]   location: variable request of type com.hotel.system.dto.DTOs.BookingRequest
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[49,35] cannot find symbol
+[ERROR]   symbol:   method getPricePerNight()
+[ERROR]   location: variable room of type com.hotel.system.entity.Room
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[57,52] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/impl/BookingServiceImpl.java:[67,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.hotel.system.entity.Booking.BookingStatus)
+[ERROR]   location: variable booking of type com.hotel.system.entity.Booking
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/CustomUserDetailsService.java:[23,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/CustomUserDetailsService.java:[24,31] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] /C:/Users/asus/Desktop/fullstack full/backend/src/main/java/com/hotel/system/service/CustomUserDetailsService.java:[25,28] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.hotel.system.entity.User
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
