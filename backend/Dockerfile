@@ -26,13 +26,8 @@ COPY --from=build /app/target/*.jar app.jar
 # Expose port
 EXPOSE 10000
 
-# Set environment variables (will be overridden by docker-compose)
-ENV SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/hotel_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
-ENV SPRING_DATASOURCE_USERNAME=root
-ENV SPRING_DATASOURCE_PASSWORD=sreeram000
-
-# Run the application
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Run the application with memory constraints for Render free tier
+ENTRYPOINT ["java", "-Xmx384m", "-Xms256m", "-jar", "app.jar"]
 
 
 #cd "c:\Users\asus\Desktop\fullstack full"
