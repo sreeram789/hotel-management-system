@@ -1,0 +1,30 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.mvn/
+.gradle/
+build/
+
+# Node
+node_modules/
+dist/
+build/
+.yarn/
+.npm/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Env
+.env
+.env.local
+
+# Docker
+docker-compose.override.yml
