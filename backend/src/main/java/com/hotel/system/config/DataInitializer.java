@@ -26,15 +26,15 @@ public class DataInitializer {
                         PasswordEncoder passwordEncoder) {
                 return args -> {
                         // Only seed if database is empty
-                        boolean seedHotels = repository.count() == 0;
-                        boolean seedUsers = userRepository.count() == 0;
+                        boolean hotelsEmpty = repository.count() == 0;
+                        boolean usersEmpty = userRepository.count() == 0;
 
-                        if (!seedHotels && !seedUsers) {
+                        if (!hotelsEmpty && !usersEmpty) {
                                 System.out.println("Database already has data, skipping seed.");
                                 return;
                         }
 
-                        if (seedUsers) {
+                        if (usersEmpty) {
                                 System.out.println("Seeding users...");
                                 User admin = new User();
                                 admin.setName("Admin User");
@@ -52,7 +52,7 @@ public class DataInitializer {
                                 System.out.println("Users seeded: admin@hotel.com, user@hotel.com");
                         }
 
-                        if (seedHotels) {
+                        if (hotelsEmpty) {
                                 System.out.println("Seeding hotels...");
 
                                 Hotel h1 = new Hotel();
