@@ -24,7 +24,7 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 
 # Expose port
-EXPOSE 8081
+EXPOSE 10000
 
 # Set environment variables (will be overridden by docker-compose)
 ENV SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/hotel_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true

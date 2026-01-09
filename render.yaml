@@ -7,7 +7,7 @@ services:
     plan: free
     dockerContext: ./backend
     dockerfilePath: ./backend/Dockerfile
-    healthCheckPath: /actuator/health
+    healthCheckPath: /api/auth/login
     envVars:
       - key: SPRING_DATASOURCE_URL
         value: jdbc:mysql://sreeram-db-hotel-booking-management.f.aivencloud.com:20962/defaultdb?useSSL=true&verifyServerCertificate=false&requireSSL=true&createDatabaseIfNotExist=true
@@ -28,6 +28,7 @@ services:
     plan: free
     dockerContext: ./frontend
     dockerfilePath: ./frontend/Dockerfile
+    healthCheckPath: /
     envVars:
       - key: VITE_API_URL
         value: /api
