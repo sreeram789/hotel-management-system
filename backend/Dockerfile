@@ -27,9 +27,4 @@ COPY --from=build /app/target/*.jar app.jar
 EXPOSE 10000
 
 # Run the application with memory constraints for Render free tier
-ENTRYPOINT ["java", "-Xmx384m", "-Xms256m", "-jar", "app.jar"]
-
-
-#cd "c:\Users\asus\Desktop\fullstack full"
-#docker-compose build
-#docker-compose up -d
+ENTRYPOINT ["java", "-Xmx256m", "-Xms128m", "-jar", "app.jar"]
