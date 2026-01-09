@@ -1,0 +1,36 @@
+services:
+  # Backend Service
+  - type: web
+    name: backend
+    env: docker
+    region: singapore
+    plan: free
+    dockerContext: ./backend
+    dockerfilePath: ./backend/Dockerfile
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: jdbc:mysql://sreeram-db-hotel-booking-management.f.aivencloud.com:20962/defaultdb?useSSL=true&verifyServerCertificate=false&requireSSL=true&createDatabaseIfNotExist=true
+      - key: SPRING_DATASOURCE_USERNAME
+        value: avnadmin
+      - key: SPRING_DATASOURCE_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRATION
+        value: 86400000
+
+  # Frontend Service
+  - type: web
+    name: frontend
+    env: docker
+    region: singapore
+    plan: free
+    dockerContext: ./frontend
+    dockerfilePath: ./frontend/Dockerfile
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: backend
+          envVar: url 

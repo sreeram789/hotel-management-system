@@ -2,7 +2,7 @@
 FROM node:20-alpine AS build
 
 # Accept build argument for API URL
-ARG VITE_API_URL=http://localhost:8082/api
+ARG VITE_API_URL=/api
 ENV VITE_API_URL=${VITE_API_URL}
 
 # Set working directory
