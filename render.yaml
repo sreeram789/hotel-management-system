@@ -31,4 +31,4 @@ services:
     healthCheckPath: /
     envVars:
       - key: VITE_API_URL
-        value: /api
+        value: https://backend-6uvx.onrender.com/api
