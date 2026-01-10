@@ -123,6 +123,7 @@ const RoomBookingModal = ({ hotel, onClose }) => {
                     )}
                 </div>
             </div>
+            {toast && <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />}
         </div>
     );
 };
@@ -180,6 +181,7 @@ const ExtendBookingModal = ({ booking, onClose, onUpdate }) => {
                     </button>
                 </div>
             </div>
+            {toast && <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />}
         </div>
     );
 };
