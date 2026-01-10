@@ -285,6 +285,7 @@ export const UserDashboard = () => {
 
 export const Profile = () => {
     const { user } = useAuth();
+    const [toast, setToast] = useState(null);
     return (
         <div className="max-w-3xl mx-auto py-10 px-4">
             <div className="bg-white shadow-xl rounded-2xl overflow-hidden">
